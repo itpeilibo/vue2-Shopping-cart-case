@@ -3,7 +3,6 @@ node_modules
 /dist
 MyCount.vue
 MyFooter.vue
-MyGoods.vue
 # local env files
 .env.local
 .env.*.local
