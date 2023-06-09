@@ -2,7 +2,6 @@ import Vue from 'vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App.vue'
-import router from './router/index'
 // 引入bootstrap
 import 'bootstrap/dist/css/bootstrap.css'
 // 引入axios
@@ -14,6 +13,5 @@ axios.defaults.timeout = 3000
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 new Vue({
-  router,
   render: h => h(App)
 }).$mount('#app')
